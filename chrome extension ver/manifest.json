@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "25분 집중 타이머",
+    "version": "1.0",
+    "description": "25분마다 쉴 수 있게 도와주는 아날로그 감성 타이머",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage",
+        "alarms"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
